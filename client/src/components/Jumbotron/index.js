@@ -1,14 +1,20 @@
 import React from "react";
+import "./style.css";
 
-function Jumbotron({ children }) {
+function Jumbotron() {
   return (
-    <div
-      style={{ height: 300, clear: "both", paddingTop: 120, textAlign: "center" }}
-      className="jumbotron"
-    >
-      {children}
+  <div className="ftco-blocks-cover-1">
+  <div className ="ftco-cover-1 overlay Jumbotron" id="Home">
+    <div className="container">
+      <div className="row align-items-center justify-content-center">
+        <div className="col-lg-6 text-center">
+          <h1>Save Your Spoons</h1>
+          <p>Find help when you need it</p>
+        </div>
+      </div>
     </div>
-  );
+  </div>
+</div>);
 }
 
-export default Jumbotron;
+    export default Jumbotron;
