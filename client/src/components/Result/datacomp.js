@@ -17,7 +17,7 @@ class ProviderList extends Component {
     
     return (
       <div>
-      
+        !! DUMMY SAMPLE TEXT !!
         { this.state.providers.map(provider=>(
             <div>
               {provider.name}<br></br>
